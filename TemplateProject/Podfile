@@ -1,0 +1,91 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target 'TemplateProject' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+
+  ########################## network #######################
+  #Http
+  pod 'AFNetworking', '~> 3.1.0'
+  #websocket
+  pod 'SocketRocket'
+  #socket
+  #pod 'CocoaAsyncSocket'
+  
+  
+  ######################### DB #############################
+  #FMDB数据库
+  #pod 'FMDB'
+  #WCDB
+  #pod 'WCDB'
+  #Realm
+  #pod 'Realm'
+  
+  ######################### json序列化 ######################
+  pod 'YYModel', '~> 1.0.4'
+  #pod 'JSONModel', '~> 1.7.0'
+  #pod 'MJExtension'
+  
+  
+  
+  ######################### 性能监控 ########################
+  #pod 'Bugly'
+  #内存泄漏
+  #pod 'MLeaksFinder', :configurations => ['Debug']
+  #循环引用
+  #pod 'FBRetainCycleDetector', :configurations => ['Debug']
+  #Log日志库
+  #pod 'CocoaLumberjack'
+  
+  
+  ######################### 其他 ###########################
+  #webview
+  pod 'WebViewJavascriptBridge', '6.0.2'
+
+  #MVVM双向绑定
+  pod 'ReactiveObjC', '3.0.0'
+
+  #UI事件block化
+  pod 'BlocksKit', '~> 2.2.5'
+
+  #YYKit
+  pod 'YYCategories'
+  
+  #约束布局
+  pod 'Masonry', '~> 1.1.0'
+  
+  #keyboard
+  pod 'IQKeyboardManager', '~> 5.0.4'
+  
+  #图片
+  pod 'SDWebImage', '~> 4.2.1'
+
+  #UI组件
+  #pod 'QMUIKit'
+  pod 'MJRefresh', '~> 3.1.15'
+  pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'JXCategoryView', '~> 1.3.11'
+  pod 'TTTAttributedLabel', '~> 2.0.0'
+  #pod 'TAPageControl', '~> 0.2.0'
+  #pod 'PYSearch'
+  #pod 'YZTagList'
+
+  #二维码扫码
+  #pod 'LBXScan/LBXZXing','~> 2.3'
+  #pod 'LBXScan/UI','~> 2.3'
+
+  #hook
+  pod 'AspectsV1.4.2', '~> 1.4.2'
+  
+  #存储
+  #pod 'PINCache', '~> 2.3'
+  #pod 'SAMKeychain', '~> 1.5.3'
+
+  #其他
+  #pod 'MSWeakTimer', '~> 1.1.0'
+  #pod 'SSZipArchive', '~> 2.1.3'
+  
+end
