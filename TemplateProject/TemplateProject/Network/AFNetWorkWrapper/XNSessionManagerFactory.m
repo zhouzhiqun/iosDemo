@@ -9,8 +9,6 @@
 #import "XNSessionManagerFactory.h"
 #import "XNHttpClient.h"
 
-const char *kXNHuiCuiRequestCompletionQueueName = "XN_http_request_completion_queue";
-
 
 @implementation XNSessionManagerFactory
 

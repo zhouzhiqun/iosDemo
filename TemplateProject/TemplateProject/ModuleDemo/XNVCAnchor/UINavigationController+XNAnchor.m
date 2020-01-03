@@ -13,6 +13,9 @@
 
 @implementation UINavigationController (XNAnchor)
 
+
+#pragma mark - 方法混写
+
 + (void)load
 {
     static dispatch_once_t onceToken;
@@ -65,20 +68,7 @@
 }
 
 
-//pop到最后一个锚点VC, 如果没有锚点VC，则返回上一个界面
-- (void)popToAnchorViewControllerAnimated:(BOOL)animated
-{
-    UIViewController *lastAnchorVC = [self.anchorStack pop];
-    if (lastAnchorVC) {
-        [self popToViewController:lastAnchorVC animated:animated];
-    } else {
-        [self popViewControllerAnimated:animated];
-    }
-}
 
-
-
-#pragma mark - 方法混写
 
 void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector)
 {
@@ -93,6 +83,30 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector)
         method_exchangeImplementations(originalMethod, swizzledMethod);
     }
 }
+
+
+
+
+
+
+#pragma mark - Public
+
+//pop到最后一个锚点VC, 如果没有锚点VC，则返回上一个界面
+- (void)popToAnchorViewControllerAnimated:(BOOL)animated
+{
+    UIViewController *lastAnchorVC = [self.anchorStack pop];
+    if (lastAnchorVC) {
+        [self popToViewController:lastAnchorVC animated:animated];
+    } else {
+        [self popViewControllerAnimated:animated];
+    }
+}
+
+
+
+
+
+
 
 #pragma mark - Private
 

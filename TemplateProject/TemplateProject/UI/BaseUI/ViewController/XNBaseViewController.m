@@ -46,7 +46,7 @@
 - (void)defaultInit {
     
     //1 设置背景色
-    self.view.backgroundColor = [UIColor whiteColor];
+    
     
     //2 以导航栏左下角为原点，进行布局; 默认是以以屏幕左上角为原点。
     self.edgesForExtendedLayout = UIRectEdgeNone;

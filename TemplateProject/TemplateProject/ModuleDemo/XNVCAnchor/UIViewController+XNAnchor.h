@@ -21,6 +21,7 @@ typedef void (^XNVCPopBackToAnchorBlock)(void);
 //创建锚点，并传入popBlock, block可为nil
 - (void)createAnchorWithPopBlock:(XNVCPopBackToAnchorBlock)popBlock;
 
+
 //清除锚点并根据execute是否执行popBlock
 - (void)clearAnchorAndExecuteBlock:(BOOL)execute;
 

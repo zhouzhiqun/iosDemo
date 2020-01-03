@@ -35,7 +35,7 @@ typedef void (^XNDownloadCompleteBlock)(NSURL *filePath, NSError *err);
 
 AS_SINGLETON(XNHttpClient);
 
-//配置环境类型类型以及Https证书
+//配置环境类型类型
 - (void)setupWithEnvType:(XNServerEnvType)envType;
 
 

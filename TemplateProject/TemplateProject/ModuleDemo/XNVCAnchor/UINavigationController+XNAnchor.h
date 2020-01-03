@@ -11,8 +11,11 @@
 
 @interface UINavigationController (XNAnchor)
 
-//VC栈
+//标记为锚点的VC栈
 @property (nonatomic, strong, readonly) XNStack *anchorStack;
+
+//pop到最后一个锚点VC, 如果没有锚点VC，则返回上一个界面
+- (void)popToAnchorViewControllerAnimated:(BOOL)animated;
 
 @end
 
