@@ -12,6 +12,7 @@
 #import "Module_Protocol_AA.h"
 #import "Module_Protocol_BB.h"
 #import "Module_Protocol_CC.h"
+#import "Module_Protocol_Web.h"
 
 
 #endif /* XNRouterProtocols_h */

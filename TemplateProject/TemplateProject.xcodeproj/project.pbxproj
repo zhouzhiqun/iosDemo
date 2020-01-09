@@ -110,6 +110,13 @@
 		32B3AC0B23BF296000290B3E /* BaseTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B3AC0A23BF296000290B3E /* BaseTestViewController.m */; };
 		32F1E6E723BF2B63002FFBE5 /* AAViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F1E6E523BF2B63002FFBE5 /* AAViewController2.m */; };
 		32F1E6EA23BF2B6F002FFBE5 /* BBViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F1E6E923BF2B6F002FFBE5 /* BBViewController2.m */; };
+		32F1E70423C5CC1D002FFBE5 /* XNWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F1E70323C5CC1D002FFBE5 /* XNWebViewController.m */; };
+		32F1E70623C5D01D002FFBE5 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 32F1E70523C5D01D002FFBE5 /* ExampleApp.html */; };
+		32F1E70923C5D062002FFBE5 /* XNRouter+ModuleWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F1E70823C5D062002FFBE5 /* XNRouter+ModuleWeb.m */; };
+		32F1E72323C5EF53002FFBE5 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F1E71B23C5EF53002FFBE5 /* WebViewJavascriptBridge_JS.m */; };
+		32F1E72423C5EF53002FFBE5 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F1E71E23C5EF53002FFBE5 /* WKWebViewJavascriptBridge.m */; };
+		32F1E72523C5EF53002FFBE5 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F1E72023C5EF53002FFBE5 /* WebViewJavascriptBridgeBase.m */; };
+		32F1E72623C5EF53002FFBE5 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F1E72223C5EF53002FFBE5 /* WebViewJavascriptBridge.m */; };
 		3F8F63ECEDDE6EF7EB1FE6F5 /* libPods-TemplateProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A25A05A409EF1301AA51AAD0 /* libPods-TemplateProject.a */; };
 /* End PBXBuildFile section */
 
@@ -346,6 +353,20 @@
 		32F1E6E623BF2B63002FFBE5 /* AAViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAViewController2.h; sourceTree = "<group>"; };
 		32F1E6E823BF2B6F002FFBE5 /* BBViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBViewController2.h; sourceTree = "<group>"; };
 		32F1E6E923BF2B6F002FFBE5 /* BBViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBViewController2.m; sourceTree = "<group>"; };
+		32F1E70223C5CC1D002FFBE5 /* XNWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNWebViewController.h; sourceTree = "<group>"; };
+		32F1E70323C5CC1D002FFBE5 /* XNWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNWebViewController.m; sourceTree = "<group>"; };
+		32F1E70523C5D01D002FFBE5 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		32F1E70723C5D062002FFBE5 /* XNRouter+ModuleWeb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XNRouter+ModuleWeb.h"; sourceTree = "<group>"; };
+		32F1E70823C5D062002FFBE5 /* XNRouter+ModuleWeb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XNRouter+ModuleWeb.m"; sourceTree = "<group>"; };
+		32F1E70A23C5D637002FFBE5 /* Module_Protocol_Web.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_Protocol_Web.h; sourceTree = "<group>"; };
+		32F1E71B23C5EF53002FFBE5 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		32F1E71C23C5EF53002FFBE5 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		32F1E71D23C5EF53002FFBE5 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		32F1E71E23C5EF53002FFBE5 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		32F1E71F23C5EF53002FFBE5 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		32F1E72023C5EF53002FFBE5 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		32F1E72123C5EF53002FFBE5 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		32F1E72223C5EF53002FFBE5 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		36BFB242AEF75ACEBEF10266 /* Pods-TemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateProject.release.xcconfig"; path = "Target Support Files/Pods-TemplateProject/Pods-TemplateProject.release.xcconfig"; sourceTree = "<group>"; };
 		3C6DF4ABABF0CB062E4AB4F4 /* Pods-TemplateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateProject.debug.xcconfig"; path = "Target Support Files/Pods-TemplateProject/Pods-TemplateProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A25A05A409EF1301AA51AAD0 /* libPods-TemplateProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemplateProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -847,10 +868,11 @@
 		327E0DD023BF154100108DFD /* RouterProtocols */ = {
 			isa = PBXGroup;
 			children = (
+				327E0DE123BF171400108DFD /* XNRouterProtocols.h */,
 				327E0DD423BF15E300108DFD /* Module_Protocol_AA.h */,
 				327E0DD523BF160400108DFD /* Module_Protocol_BB.h */,
 				327E0DD623BF161600108DFD /* Module_Protocol_CC.h */,
-				327E0DE123BF171400108DFD /* XNRouterProtocols.h */,
+				32F1E70A23C5D637002FFBE5 /* Module_Protocol_Web.h */,
 			);
 			path = RouterProtocols;
 			sourceTree = "<group>";
@@ -903,6 +925,7 @@
 		32B3AC0823BF291500290B3E /* ModuleCollections */ = {
 			isa = PBXGroup;
 			children = (
+				32F1E70123C5CBE5002FFBE5 /* ModuleWeb */,
 				327E0DD323BF157900108DFD /* ModuleCC */,
 				327E0DD223BF157200108DFD /* ModuleBB */,
 				327E0DD123BF155E00108DFD /* ModuleAA */,
@@ -910,6 +933,34 @@
 				32B3AC0A23BF296000290B3E /* BaseTestViewController.m */,
 			);
 			path = ModuleCollections;
+			sourceTree = "<group>";
+		};
+		32F1E70123C5CBE5002FFBE5 /* ModuleWeb */ = {
+			isa = PBXGroup;
+			children = (
+				32F1E70E23C5EE28002FFBE5 /* WebViewJavascriptBridge */,
+				32F1E70523C5D01D002FFBE5 /* ExampleApp.html */,
+				32F1E70223C5CC1D002FFBE5 /* XNWebViewController.h */,
+				32F1E70323C5CC1D002FFBE5 /* XNWebViewController.m */,
+				32F1E70723C5D062002FFBE5 /* XNRouter+ModuleWeb.h */,
+				32F1E70823C5D062002FFBE5 /* XNRouter+ModuleWeb.m */,
+			);
+			path = ModuleWeb;
+			sourceTree = "<group>";
+		};
+		32F1E70E23C5EE28002FFBE5 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				32F1E71D23C5EF53002FFBE5 /* WebViewJavascriptBridge_JS.h */,
+				32F1E71B23C5EF53002FFBE5 /* WebViewJavascriptBridge_JS.m */,
+				32F1E71F23C5EF53002FFBE5 /* WebViewJavascriptBridge.h */,
+				32F1E72223C5EF53002FFBE5 /* WebViewJavascriptBridge.m */,
+				32F1E71C23C5EF53002FFBE5 /* WebViewJavascriptBridgeBase.h */,
+				32F1E72023C5EF53002FFBE5 /* WebViewJavascriptBridgeBase.m */,
+				32F1E72123C5EF53002FFBE5 /* WKWebViewJavascriptBridge.h */,
+				32F1E71E23C5EF53002FFBE5 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
 		5E203E84966232923132971B /* Frameworks */ = {
@@ -1034,6 +1085,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F1E70623C5D01D002FFBE5 /* ExampleApp.html in Resources */,
 				327E0C6C23BCE11700108DFD /* LaunchScreen.storyboard in Resources */,
 				327E0C6923BCE11700108DFD /* Assets.xcassets in Resources */,
 				327E0DC523BDF40E00108DFD /* Readme.txt in Resources */,
@@ -1120,6 +1172,7 @@
 				327E0D3E23BD845A00108DFD /* XNNumberFormatUtils.m in Sources */,
 				327E0D2823BD14F300108DFD /* UIResponder+SSToolkitAdditions.m in Sources */,
 				327E0D9423BDC11000108DFD /* XNNetworkErrorMsgConstants.m in Sources */,
+				32F1E72623C5EF53002FFBE5 /* WebViewJavascriptBridge.m in Sources */,
 				327E0DCE23BF126400108DFD /* XNRouter.m in Sources */,
 				327E0DF323BF191900108DFD /* BBViewController3.m in Sources */,
 				327E0DE423BF18A900108DFD /* AAViewController1.m in Sources */,
@@ -1136,6 +1189,7 @@
 				327E0DF623BF193D00108DFD /* CCViewController1.m in Sources */,
 				327E0D2723BD14F300108DFD /* UILabel+SSToolkitAdditions.m in Sources */,
 				327E0CAB23BD132500108DFD /* XNBaseView.m in Sources */,
+				32F1E70423C5CC1D002FFBE5 /* XNWebViewController.m in Sources */,
 				327E0C6F23BCE11700108DFD /* main.m in Sources */,
 				32B3AC0B23BF296000290B3E /* BaseTestViewController.m in Sources */,
 				327E0D4123BD86C100108DFD /* XNFormulaCalcUtils.m in Sources */,
@@ -1145,6 +1199,7 @@
 				327E0DFF23BF1C8F00108DFD /* UIViewController+XNCallBack.m in Sources */,
 				327E0CA523BD0CCB00108DFD /* XNBaseViewModel.m in Sources */,
 				327E0D2A23BD14F300108DFD /* UIDevice+SSToolkitAdditions.m in Sources */,
+				32F1E72423C5EF53002FFBE5 /* WKWebViewJavascriptBridge.m in Sources */,
 				327E0DC923BDF40E00108DFD /* XNLCommonCellModel.m in Sources */,
 				327E0DC023BDF40E00108DFD /* XNLBaseFixSizeButton.m in Sources */,
 				327E0C9F23BD083800108DFD /* XNBaseModel.m in Sources */,
@@ -1164,7 +1219,9 @@
 				327E0D1D23BD14F300108DFD /* UINavigationController+SSToolkitAdditions.m in Sources */,
 				327E0DC623BDF40E00108DFD /* XNLTextFieldSideView.m in Sources */,
 				327E0CAE23BD134700108DFD /* XNBaseTableViewCell.m in Sources */,
+				32F1E70923C5D062002FFBE5 /* XNRouter+ModuleWeb.m in Sources */,
 				327E0D1423BD14F300108DFD /* NSUserDefaults+SSToolkitAdditions.m in Sources */,
+				32F1E72523C5EF53002FFBE5 /* WebViewJavascriptBridgeBase.m in Sources */,
 				327E0D0E23BD14F300108DFD /* NSDate+SSToolkitAdditions.m in Sources */,
 				327E0DEA23BF18DF00108DFD /* AAViewController3.m in Sources */,
 				327E0D8A23BD8E5100108DFD /* XNBaseResponse.m in Sources */,
@@ -1186,6 +1243,7 @@
 				327E0D2523BD14F300108DFD /* UIViewController+SSToolkitAdditions.m in Sources */,
 				327E0D1223BD14F300108DFD /* NSObject+SSToolkitAdditions.m in Sources */,
 				327E0DFC23BF195400108DFD /* CCViewController3.m in Sources */,
+				32F1E72323C5EF53002FFBE5 /* WebViewJavascriptBridge_JS.m in Sources */,
 				327E0D0A23BD14F300108DFD /* NSData+SSToolkitAdditions.m in Sources */,
 				327E0D1A23BD14F300108DFD /* SSColorAttributedItem.m in Sources */,
 				327E0DDF23BF16A900108DFD /* XNRouter+ModuleCC.m in Sources */,

@@ -38,9 +38,28 @@
 
 - (void)onClick:(UIButton *)btn {
     
-    id<Module_Protocol_AA> moduleAA = (id<Module_Protocol_AA>)[XNRouter sharedInstance];
-    UIViewController *a3VC = [moduleAA getA3VCWithParams:@{@"name" : @"zhouzhou"}];
-    [self.navigationController pushViewController:a3VC animated:YES];
+//    id<Module_Protocol_AA> moduleAA = (id<Module_Protocol_AA>)[XNRouter sharedInstance];
+//    UIViewController *a3VC = [moduleAA getA3VCWithParams:@{@"name" : @"zhouzhou"}];
+//    [self.navigationController pushViewController:a3VC animated:YES];
+    
+    //跳baidu
+    id<Module_Protocol_Web> moduleWeb = (id<Module_Protocol_Web>)[XNRouter sharedInstance];
+    UIViewController *webVC = [moduleWeb getWebVCWithUrlString:@"https://www.baidu.com"];
+    [self.navigationController pushViewController:webVC animated:YES];
+
+    
+    
+//    //跳本地
+//    id<Module_Protocol_Web> moduleWeb = (id<Module_Protocol_Web>)[XNRouter sharedInstance];
+//    NSString* htmlPath = [[NSBundle mainBundle] pathForResource:@"ExampleApp" ofType:@"html"];
+//    UIViewController *webVC = [moduleWeb getWebVCWithUrlString:htmlPath];
+//    [self.navigationController pushViewController:webVC animated:YES];
+    
+    
+//    id<Module_Protocol_Web> moduleWeb = (id<Module_Protocol_Web>)[XNRouter sharedInstance];
+//    UIViewController *webVC = [moduleWeb getExampleWebVC];
+//    [self.navigationController pushViewController:webVC animated:YES];
+
 }
 
 @end
